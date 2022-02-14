@@ -74,7 +74,6 @@ export default function DashBoard() {
   }
 
   const toggleModal = () => {
-
     setModalOpen(!modalOpen);
   }
 
@@ -83,7 +82,7 @@ export default function DashBoard() {
   }
 
   const handleEditFood = (food : IFood)=> {
-    setModalOpen(true)
+    setEditModalOpen(true)
     setEditingFood(food);
   }
 
